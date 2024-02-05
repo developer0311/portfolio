@@ -84,7 +84,7 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, .home .heading,  .about .heading, .contact .heading', {origin: `top`});
-ScrollReveal().reveal('.home-image, .services-container, .portfolio-box, .contact form, .footer p, .footer .btn', {origin: `bottom`});
+ScrollReveal().reveal('.home-image, .services-container, .portfolio-box, .contact form', {origin: `bottom`});
 ScrollReveal().reveal('.home-content h1, .about-image', {origin: `left`});
 ScrollReveal().reveal('.home-content p, .about-content h3, .about-content p', {origin: `right`});
 
