@@ -891,7 +891,8 @@ nav a:active {
 }
 
 @media only screen and (max-width: 625px){
-    .home-content, .about-content {
+    .home-content, 
+    .about-content {
         width: 75vw;
     }
 
