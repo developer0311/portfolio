@@ -428,10 +428,13 @@ nav a:active {
 }
 
 @keyframes html {
-    40%{
+    0%{
         width: 0%;
     }
-    80%{
+    10%{
+        width: 81%;
+    }
+    100%{
         width: 81%;
     }
 }
@@ -439,6 +442,9 @@ nav a:active {
 @keyframes css {
     0%{
         width: 0%;
+    }
+    10%{
+        width: 72%;
     }
     100%{
         width: 72%;
@@ -449,6 +455,9 @@ nav a:active {
     0%{
         width: 0%;
     }
+    10%{
+        width: 63%;
+    }
     100%{
         width: 63%;
     }
@@ -458,6 +467,9 @@ nav a:active {
     0%{
         width: 0%;
     }
+    10%{
+        width: 70%;
+    }
     100%{
         width: 70%;
     }
@@ -466,6 +478,9 @@ nav a:active {
 @keyframes python {
     0%{
         width: 0%;
+    }
+    10%{
+        width: 54%;
     }
     100%{
         width: 54%;
