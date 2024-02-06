@@ -393,27 +393,27 @@ nav a:active {
 
 .skill .skill-container .skill-left .skill-bar .bar .html{
     width: 81%;
-    animation: html 1s;
+    animation: html 1s ease-in-out 5s infinite;
 }
 
 .skill .skill-container .skill-left .skill-bar .bar .css{
     width: 72%;
-    animation: css 2s;
+    animation: css 2s ease-in-out 5s infinite;
 }
 
 .skill .skill-container .skill-left .skill-bar .bar .javascript{
     width: 63%;
-    animation: javascript 3s;
+    animation: javascript 3s ease-in-out 5s infinite;
 }
 
 .skill .skill-container .skill-left .skill-bar .bar .c{
     width: 70%;
-    animation: c 3.2s;
+    animation: c 3.2s ease-in-out 5s infinite;
 }
 
 .skill .skill-container .skill-left .skill-bar .bar .python{
     width: 54%;
-    animation: python 2s;
+    animation: python 2s ease-in-out 5s infinite;
 }
 
 @keyframes html {
