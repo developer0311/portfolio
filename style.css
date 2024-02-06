@@ -393,32 +393,35 @@ nav a:active {
 
 .skill .skill-container .skill-left .skill-bar .bar .html{
     width: 81%;
-    animation: html 1s ease-in-out 5s infinite;
+    animation: html 10s ease-in-out infinite;
 }
 
 .skill .skill-container .skill-left .skill-bar .bar .css{
     width: 72%;
-    animation: css 2s ease-in-out 5s infinite;
+    animation: css 10s ease-in-out infinite;
 }
 
 .skill .skill-container .skill-left .skill-bar .bar .javascript{
     width: 63%;
-    animation: javascript 3s ease-in-out 5s infinite;
+    animation: javascript 10s ease-in-out infinite;
 }
 
 .skill .skill-container .skill-left .skill-bar .bar .c{
     width: 70%;
-    animation: c 3.2s ease-in-out 5s infinite;
+    animation: c 10s ease-in-out infinite;
 }
 
 .skill .skill-container .skill-left .skill-bar .bar .python{
     width: 54%;
-    animation: python 2s ease-in-out 5s infinite;
+    animation: python 10s ease-in-out infinite;
 }
 
 @keyframes html {
     0%{
         width: 0%;
+    }
+    10%{
+        width: 81%;
     }
     100%{
         width: 81%;
@@ -429,6 +432,9 @@ nav a:active {
     0%{
         width: 0%;
     }
+    10%{
+        width: 72%;
+    }
     100%{
         width: 72%;
     }
@@ -437,6 +443,9 @@ nav a:active {
 @keyframes javascript {
     0%{
         width: 0%;
+    }
+    10%{
+        width: 63%;
     }
     100%{
         width: 63%;
@@ -447,6 +456,9 @@ nav a:active {
     0%{
         width: 0%;
     }
+    10%{
+        width: 70%;
+    }
     100%{
         width: 70%;
     }
@@ -455,6 +467,9 @@ nav a:active {
 @keyframes python {
     0%{
         width: 0%;
+    }
+    10%{
+        width: 54%;
     }
     100%{
         width: 54%;
