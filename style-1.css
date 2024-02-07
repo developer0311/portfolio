@@ -674,10 +674,12 @@ nav a:active {
 }
 
 .portfolio .portfolio-container .portfolio-box .portfolio-layer h4 {
+    text-shadow: 2px 2px 5px BLACK;
     font-size: 2.5rem;
 }
 
 .portfolio .portfolio-container .portfolio-box .portfolio-layer p {
+    text-shadow: 2px 2px 5px BLACK;
     margin: 10px 0px 25px;
 }
 
