@@ -91,7 +91,7 @@ ScrollReveal().reveal('.home-content p, .about-content h3, .skill-right, .about-
 
 // Multiple Text
 const typed = new Typed(".multiple-text", {
-    strings: ["Student", "Frontend Developer", "Gamer"],
+    strings: ["Student", "Full-Stack Developer", "Gamer"],
     typeSpeed: 80,
     backSpeed: 80,
     backDelay: 1000,
