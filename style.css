@@ -9,6 +9,7 @@
     --textColor: #fff;
     --imageShadow: rgb(0 255 212);
     --imageShadowHover: rgba(0, 255, 213, 0.767);
+    --markedColor: #f1c40f;
 }
 
 * {
