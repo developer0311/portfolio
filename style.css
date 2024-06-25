@@ -505,31 +505,32 @@ nav a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 0.2rem solid var(--anchorColor); */
+    position: relative;
 }
 
 .skill .skill-container .skill-right .professional .box .circle .points {
     width: 2px;
     height: 10px;
-    background-color: var(--imageShadowHover);
+    background-color: var(--bodyBgColor2);
     position: absolute;
     border-radius: 3px;
     transform: rotate(calc(var(--i) * var(--rot))) translateY(-45px);
 }
 
-.points .marked {
+.points.marked {
+    /* background-color: var(--markedColor) !important; */
     animation: glow 0.04s linear forwards;
-    animation-delay: calc(var(--i)*0.05s);
+    animation-delay: calc(var(--i) * 0.05s);
 }
 
 @keyframes glow {
     0% {
-        background-color: var(--bodyBgColor2);
+        background-color: var(--imageShadowHover);
         box-shadow: none;
     }
 
     100% {
-        background-color: var(--bodyBgColor2);
+        background-color: var(--imageShadowHover);
         box-shadow: 0 0 0.8rem var(--anchorColorHover);
     }
 }
@@ -541,7 +542,7 @@ nav a:active {
 }
 
 .skill .skill-container .skill-right .professional .box .text big {
-    font: 400;
+    font-weight: 400;
     letter-spacing: 1px;
     position: absolute;
     top: 40%;
