@@ -102,29 +102,21 @@ const typed = new Typed(".multiple-text", {
 
 const circles = document.querySelectorAll(".circle");
 
-circles.forEach((element) => {
-    // Get data attributes
-    let dots = element.getAttribute("data-dots");
-    let marked = element.getAttribute("data-percent");
+circles.forEach((elem) => {
+  var dots = elem.getAttribute("data-dots");
+  var marked = elem.getAttribute("data-percent");
+  var percent = Math.floor((dots * marked) / 100);
+  var points = "";
+  var rotate = 360 / dots;
 
-    // Calculate the number of points to mark
-    let percent = Math.floor((dots * marked) / 100);
+  for (let i = 0; i < dots; i++) {
+    points += `<div class="points" style="--i:${i}; --rot:${rotate}deg"></div>`;
+  }
+  elem.innerHTML = points;
 
-    // Generate points HTML
-    let points = "";
-    let rotate = 360 / dots;
+  const pointsMarked = elem.querySelectorAll(".points");
 
-
-    for (let i = 0; i < dots; i++) {
-        points += `<div class="points" style="--i:${i}; --rot:${rotate}deg"></div>`;
-    }
-
-    // Set points HTML inside the circle element
-    element.innerHTML = points;
-
-    // Apply the "marked" class to the appropriate percentage of points
-    const pointsMarked = element.querySelectorAll(".points");
-    for (let i = 0; i < percent; i++) {
-        pointsMarked[i].classList.add("marked");
-    }
+  for (let i = 0; i < percent; i++) {
+    pointsMarked[i].classList.add("marked");
+  }
 });
