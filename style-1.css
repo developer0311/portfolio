@@ -38,7 +38,7 @@ html {
 
 body {
   color: var(--textColor);
-  overflow-x: hideen;
+  overflow-x: hidden;
 }
 
 section {
