@@ -38,6 +38,7 @@ html {
 
 body {
   color: var(--textColor);
+  overflow-x: hideen;
 }
 
 section {
