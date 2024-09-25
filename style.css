@@ -31,6 +31,10 @@ body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 section {
   min-height: calc(100vh - 82px);
 }
