@@ -33,10 +33,10 @@ This is a **personal portfolio website** showcasing my skills, projects, and ser
 ## 🛠️ Technologies Used
 
 - **💻 HTML, CSS, JavaScript**
+- **🎨 Boxicons** – For adding modern and lightweight icons
 - **📜 ScrollReveal.js** – For smooth scrolling animations
 - **✍️ Typed.js** – For text animation effects
 - **📧 Formspree** – For contact form submission
-- **🎨 Boxicons** – For adding modern and lightweight icons
 
 ## 📜 Setup & Usage
 
@@ -46,6 +46,34 @@ This is a **personal portfolio website** showcasing my skills, projects, and ser
    ```
 2. 🌍 **Open `index.html` in a browser**.
 3. 🎨 **Modify content in HTML/CSS as needed**.
+
+## 😵‍💫 Challenges I Faced
+
+Building this portfolio was an exciting yet challenging task. My main goal was to create a **user-friendly interface** with a smooth **user experience (UX)**.
+
+### 🔍 **Key Challenges & Solutions:**
+
+1️⃣ **Choosing the Right Technologies**
+
+- I often look for existing solutions (frameworks, libraries, and tools) to enhance efficiency.
+- **Advantage**: Less code, faster development, and better performance.
+
+2️⃣ **Showcasing My Professional Skills**
+
+- The **Skills Section** was challenging because I wanted to represent my expertise in a visually appealing way.
+- **Solution**: Used **animated progress bars** to make it interactive.
+
+3️⃣ **Dark & Light Mode Implementation**
+
+- Ensuring a seamless transition between **light and dark mode** without breaking the design.
+- **Solution**: Used **CSS and JavaScript** for theme toggling.
+
+4️⃣ **Ensuring Smooth Animations**
+
+- Integrating animations while maintaining **performance and responsiveness**.
+- **Solution**: Used **ScrollReveal.js** for smooth section transitions.
+
+By overcoming these challenges, I learned how to balance **design, performance, and usability** while keeping the **codebase clean and maintainable**. 🚀
 
 ## 📧 Contact
 
