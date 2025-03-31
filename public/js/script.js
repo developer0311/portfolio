@@ -1,4 +1,4 @@
-// dark and light mode script
+//---------------------- dark and light mode script----------------------//
 
 let themeLink = document.querySelector("#theme");
 let modeButton = document.querySelector("#mode");
@@ -16,7 +16,8 @@ modeButton.addEventListener("click", (e) => {
   }
 });
 
-// button hover an click script
+
+//---------------------- button hover an click script ----------------------//
 
 let navButtons = document.querySelectorAll(".my-nav a");
 
@@ -32,7 +33,8 @@ for (let i = 0; i < navButtons.length; i++) {
   });
 }
 
-// Scroll script
+//---------------------- Scroll script ----------------------//
+
 let viewportHeight = window.innerHeight;
 let gapElements = document.querySelectorAll(".gap");
 
@@ -59,7 +61,9 @@ window.addEventListener("scroll", function () {
   navbar.classList.remove("active");
 });
 
-// responsive navbar script
+
+//---------------------- responsive navbar script ----------------------//
+
 let menuIcon = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".my-nav");
 
@@ -70,38 +74,38 @@ menuIcon.onclick = () => {
 
 // Multiple Text
 const typed = new Typed(".multiple-text", {
-    strings: ["Student", "Full-Stack Developer", "Gamer"],
-    typeSpeed: 80,
-    backSpeed: 80,
-    backDelay: 1000,
-    loop: true,
-  });
-  
-  // circle skill
-  
-  const circles = document.querySelectorAll(".circle");
-  
-  circles.forEach((element) => {
-    let dots = element.getAttribute("data-dots");
-    let marked = element.getAttribute("data-percent");
-  
-    let percent = Math.floor((dots * marked) / 100);
-    let points = "";
-    let rotate = 360 / dots;
-  
-    for (let i = 0; i < dots; i++) {
-      points += `<div class="points" style="--i:${i}; --rot:${rotate}deg"></div>`;
-    }
-  
-    element.innerHTML = points;
-  
-    const pointsMarked = element.querySelectorAll(".points");
-    for (let i = 0; i < percent; i++) {
-      pointsMarked[i].classList.add("marked");
-    }
-  });
+  strings: ["Student", "Full-Stack Developer", "Gamer"],
+  typeSpeed: 80,
+  backSpeed: 80,
+  backDelay: 1000,
+  loop: true,
+});
 
-// Scroll reveal
+//---------------------- circle skill ----------------------//
+
+const circles = document.querySelectorAll(".circle");
+
+circles.forEach((element) => {
+  let dots = element.getAttribute("data-dots");
+  let marked = element.getAttribute("data-percent");
+
+  let percent = Math.floor((dots * marked) / 100);
+  let points = "";
+  let rotate = 360 / dots;
+
+  for (let i = 0; i < dots; i++) {
+    points += `<div class="points" style="--i:${i}; --rot:${rotate}deg"></div>`;
+  }
+
+  element.innerHTML = points;
+
+  const pointsMarked = element.querySelectorAll(".points");
+  for (let i = 0; i < percent; i++) {
+    pointsMarked[i].classList.add("marked");
+  }
+});
+
+//---------------------- Scroll reveal ----------------------//
 
 ScrollReveal({
   reset: true,
@@ -122,5 +126,3 @@ ScrollReveal().reveal(
   ".home-content p, .about-content h3, .skill-right, .about-content p",
   { origin: `right` }
 );
-
-
