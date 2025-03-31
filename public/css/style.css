@@ -1009,7 +1009,7 @@ nav a:active {
       box-shadow: 0px 0px 30px 7px var(--imageShadow);
     }
   
-
+  }
   .portfolio .portfolio-container {
     grid-template-columns: repeat(1, 1fr);
     padding: 0px 15%;
@@ -1924,3 +1924,4 @@ nav a:active {
     width: 100%;
   }
 }
+

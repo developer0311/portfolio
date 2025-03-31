@@ -121,3 +121,5 @@ const circles = document.querySelectorAll(".circle");
             pointsMarked[i].classList.add("marked");
         }
     });
+
+    
